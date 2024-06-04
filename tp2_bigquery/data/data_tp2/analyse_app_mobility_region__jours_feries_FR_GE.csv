@@ -1,0 +1,19 @@
+country_region,holiday_name,period,avg_retail_recreation,avg_workplaces
+France,Armistice,after_pandemic,-74.672727272727286,-79.854545454545487
+France,Ascension,after_pandemic,-54.963636363636368,-76.645454545454541
+France,Assomption,after_pandemic,-15.527272727272733,-25.318181818181824
+France,Fête Nationale,after_pandemic,-20.945454545454552,-74.600000000000023
+France,Fête du Travail,after_pandemic,-91.000000000000014,-86.24545454545455
+France,Noël,after_pandemic,-83.3272727272727,-85.618181818181839
+France,Pentecôte,after_pandemic,-35.155963302752284,7.209090909090909
+France,Pâques,after_pandemic,-81.462962962962962,-47.963636363636368
+France,Toussaint,after_pandemic,-61.899082568807344,-31.209090909090914
+France,Victoire 1945,after_pandemic,-83.154545454545485,-79.981818181818184
+Germany,Ascension,after_pandemic,-54.411764705882355,-79.82352941176471
+Germany,Fête Nationale,after_pandemic,-47.8235294117647,-32.882352941176471
+Germany,Fête du Travail,after_pandemic,-82.058823529411768,-83.17647058823529
+Germany,Noël,after_pandemic,-87.411764705882362,-86.058823529411768
+Germany,Pentecôte,after_pandemic,-11.705882352941179,11.058823529411764
+Germany,Pâques,after_pandemic,-60.764705882352942,-22.705882352941178
+Germany,Saint-Étienne,after_pandemic,-86.294117647058826,-51.647058823529413
+Germany,Vendredi Saint,after_pandemic,-81.058823529411768,-85.0
