@@ -70,7 +70,9 @@ L'objectif est de délivrer un socle de compétences techniques fondamentales co
 - Scraper des données sur Internet
 
 ### Apprentissage profond
+
 - Introduction aux concepts de l'apprentissage profond (Deep Learning)
 
 ## Conclusion
+
 Cette formation est conçue pour fournir une base solide en programmation, data science et intelligence artificielle, tout en développant des compétences pratiques à travers des projets concrets. Les compétences acquises permettront aux apprenants de poursuivre vers des parcours plus avancés et d'intégrer les solutions d'IA dans divers contextes professionnels.
