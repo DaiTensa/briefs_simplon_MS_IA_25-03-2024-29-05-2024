@@ -1,6 +1,10 @@
+# imports
+import os
 import requests
 from pprint import pprint
 import pandas as pd
+from dotenv import load_dotenv
+load_dotenv()
 
 def save_transformed_df(df, path, filename, columns_to_save):
     
@@ -11,8 +15,8 @@ def save_transformed_df(df, path, filename, columns_to_save):
     
 # Initialisation : 
 keys_to_extract = ["foodId", "label", "category", "image", "foodContentsLabel"]
-API_ID = "8b85ae85"
-API_KEY = "aeb421086ceb01cecb4d25f83ad263fb"
+API_ID = os.getenv("API_ID")
+API_KEY = os.getenv("API_KEY")
 SESSIONS = [40, 80, 120, 160, 200]
 PAGE_SIZE = 20
 KEY_WORD = "Champagne"
