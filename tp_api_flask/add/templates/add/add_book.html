@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enregistrer un Livre</title>
+</head>
+<body>
+    <h1>Enregistrer un livre</h1>
+    <form id="addBookForm" action="/addbook/add" method="POST">
+        <label for="bookName">Nom du Livre :</label>
+        <input type="text" id="bookName" name="bookName" required>
+        <br><br>
+        <label for="bookId">ID du Livre :</label>
+        <input type="number" id="bookId" name="bookId" required>
+        <br><br>
+        <button type="submit">Ajouter</button>
+    </form>
+
+    <div id="messages">
+        <h2>Messages: :</h2>
+        <ul id="resultsList">
+            {% if messages %}
+                
+                <li> Warning: {{ messages }}</li>
+               
+            {% else %}
+                <li>Entrez un ID et un Nom de livre</li>
+            {% endif %}
+        </ul>
+    </div>
+</body>
+</html>

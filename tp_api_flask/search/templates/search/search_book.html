@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rechercher un livre</title>
+</head>
+<body>
+    <h1>Rechercher un livre</h1>
+    <form id="searchForm" action="/home/search" method="POST">
+        <label for="bookName">Nom du Livre :</label>
+        <input type="text" id="bookName" name="bookName">
+        <br><br>
+        <label for="bookId">ID du Livre :</label>
+        <input type="number" id="bookId" name="bookId">
+        <br><br>
+        <button type="submit">Rechercher</button>
+    </form>
+
+    <div id="results">
+        <h2>Résultats :</h2>
+        <ul id="resultsList">
+            {% if results %}
+                {% for book in results %}
+                    <li>ID: {{ book.id }}, Nom: {{ book.title }}, Auteur: {{ book.author }}</li>
+                {% endfor %}
+            {% else %}
+                <li>Aucun résultat trouvé.</li>
+            {% endif %}
+        </ul>
+    </div>
+</body>
+</html>
