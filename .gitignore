@@ -163,3 +163,4 @@ cython_debug/
 # les datas
 /data
 *.db
+*.txt
